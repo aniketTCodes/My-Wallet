@@ -10,12 +10,12 @@ Assignment project for internship opportunity @Persistent_Ventures
  - Android Device or emulator
 
  #### How to install
- - Download apk-debug from assignment.zip 
+ - Download apk-debug from https://github.com/aniketTCodes/My-Wallet/releases/download/complete/app-debug.apk
  - Install the .apk file in Android Device
 
  #### How to use
 
-- Login to the app using your login credentials)
+- Login to the app using your login credentials
 
 <img src="https://github.com/aniketTCodes/My-Wallet/assets/77580411/64f822f8-2fe5-4c5f-8df9-effdd3e053d0" height=480 width=220>
 
