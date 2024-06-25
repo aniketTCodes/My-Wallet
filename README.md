@@ -15,25 +15,29 @@ Assignment project for internship opportunity @Persistent_Ventures
 
  #### How to use
 
-- Login to the app using your login credentials
+- Login to the app using your login credentials)
 
-<iframe src="https://drive.google.com/file/d/14qqAimxuDqVAWgDc5W_jVYKW0wFE8UjW/preview" width="220" height="480" allow="autoplay"></iframe>
+<img src="https://github.com/aniketTCodes/My-Wallet/assets/77580411/64f822f8-2fe5-4c5f-8df9-effdd3e053d0" height=480 width=220>
+
 
 - Create a new wallet
 
-<iframe src="https://drive.google.com/file/d/14oPmsqa_ikT0vHoXLpvq2a_bFdFZ_Xa6/preview" width="220" height="480" allow="autoplay"></iframe>
+<img src="https://github.com/aniketTCodes/My-Wallet/assets/77580411/9c1dac88-70f0-4ea3-a767-36e15ddc8606" height=480 width=220>
+
 
 - Now you can get balance, transfer funds and request airdrop
-<iframe src="https://drive.google.com/file/d/14rbpEKcB1tUyK3_PL8hRVD92JO1oOduV/preview" width="220" height="480" allow="autoplay"></iframe>
 
-## API Endpoints 
+<img src="https://github.com/aniketTCodes/My-Wallet/assets/77580411/6e43f659-ee73-41b7-ae70-44415eab5007" height=480 width=220>
+
+## API Endpoints
+
  ### Login
  - POST - https://api.socialverseapp.com/user/login
- Body - {
+ - Body - {
     "mixed": "ani962854.at@gmail.com",
     "password": ""
 }
- -Response - {
+ - Response - {
     "status": "success",
     "balance": 0,
     "token": "flic_e0a726f0bfc4cf71382bf449ceab4bcd32bf958bedb6966a1a9d3f71cc5181ae",
@@ -102,24 +106,9 @@ Assignment project for internship opportunity @Persistent_Ventures
     "message": "airdrop to 6LD7oF4QgDaSRwwGGbgUBAZCC3hLNF1PFn6xxDcLKwgA failed: Internal error"
 }
 
-## App Architecture and Project Structure
+## App Architecture
 
 #### Architecture
 - Data - Handles interaction with datasource i.e APIs and shared Preferences
 - Domain - Handles buisness logics - recieves event from presentation layer, then processes response from Data layer maps them to DTOs (Data transfer objects) and sends them to presentation layer to update UI;
 - Presentation - Handles UI and states
-
-#### Project Structure
-/lib
-----/data
-----------------/models
-----------------/datasources
-----------------/respositories
-----/domain
-----------------/dto
-----------------/usecases
-----------------/respositories
-----/presentation
-----------------/components
-----------------/providers
-----------------/screens
